@@ -1,0 +1,43 @@
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+button {
+    font-family: inherit;
+    border: none;
+    border-radius: 20px;
+    font-size: 32px;
+    line-height: 100px;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.wrapper {
+    padding-top: 126px;
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.counter {
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #000;
+}
+
+.add {
+    background-color: #4191FF;
+}
+
+.reset {
+    background-color: #D45366;
+}
